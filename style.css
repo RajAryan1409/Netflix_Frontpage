@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.886);
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .img img{
+    width: 20%;
+    margin-top: -14px;
+}
+nav .btn{
+    display: flex;
+    margin-top: 10px;
+}
+.btn .eng{
+    margin-inline: 25px;
+}
+.btn .eng{
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 18px;
+    border:1px solid whitesmoke;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+select{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size:18px ;
+}
+.btn .sign{
+    margin-inline: 25px;
+    width: 100px;
+    height: 25px;
+    background-color: #ff0000;
+    color: whitesmoke;
+    font-size: 18px;
+   border-radius: 5px;
+   border: none;
+   
+}
+
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 60px;
+}
+.main h3{
+    font-size: 34px;
+}
+.main p{
+    font-size: 26px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+.input input{
+    width: 520px;
+    height: 68px;
+    border: none;
+    font-size: 22px;
+}
+.input button{
+    width: 250px;
+    height: 70px;
+    background-color: red;
+    color: wheat;
+    font-size: 22px;
+    border: none;
+}
+.input button a{
+    text-decoration: none;
+    font-size: 22px;
+    color: wheat;
+
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+ 
+    margin-top: 130px;
+    padding: 66px;
+    border-top: 5px solid gray;
+}
+.first h1{
+    font-size: 48px;
+    margin: 40px;
+}
+.first p{
+    font-size: 22px;
+    margin: 40px;
+}
+.first img{
+    width: 44%;
+
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    border-top: 4px solid gray;
+}
+.buttons button{
+    height: 60Px;
+    width: 750px;
+    background-color: gray;
+    color: white;
+    font-size: 27px;
+    margin-left: 25%;
+    text-align: left;
+   
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 63px;
+}
+@media (min-width: 1254px) {
+}
